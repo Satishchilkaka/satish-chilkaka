@@ -1,7 +1,7 @@
 .row p{
     font-weight: 700px;
     color:black;
-    
+
 }
 .card-body ul{
     padding-left: 20px;
@@ -9,5 +9,36 @@
 
 li{
     padding-top: 5px;
-    
+
+  }
+
+  .btn {
+    margin-left: 250px;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 0.25rem;
+    transition: background-color 0.3s ease;
+    align-items: center;
+  }
+
+  .btn-primary {
+    color: #ffffff;
+    background-color: #031222;
+  }
+
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+
+  /* Additional styles */
+  .btn-primary.smooth-scroll {
+    scroll-behavior: smooth;
+  }
+
+  .btn-primary[data-aos] {
+    animation-duration: 1s;
   }

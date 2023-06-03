@@ -6,10 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./about-me.component.scss']
 })
 export class AboutMeComponent {
-
+  cvUrl: any
 
   ngOnInit() {
     // this.about1 =  this.profileService.about
     // this.about2 =  this.profileService.about2
+    this.cvUrl
   }
 }
