@@ -13,7 +13,7 @@ li{
   }
 
   .btn {
-    margin-left: 250px;
+    margin-left: 2px;
     display: inline-block;
     padding: 0.5rem 1rem;
     font-size: 1rem;
@@ -22,12 +22,12 @@ li{
     text-decoration: none;
     border-radius: 0.25rem;
     transition: background-color 0.3s ease;
-    align-items: center;
+    align-items: right;
   }
 
   .btn-primary {
     color: #ffffff;
-    background-color: #031222;
+    background-color: #3f5163;
   }
 
   .btn-primary:hover {
